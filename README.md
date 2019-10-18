@@ -8,19 +8,16 @@
 
 <hr />
 
-## Documentation
+## Enhancements for Processing Online
 
-  fast_webcam.py:
-  
   - Capturing front camera frames through a separate thread to speed up the online process.
-
-  cnn_model.py:
-  
-  test.py:
-  
-  cascade:
   
 <hr />
+
+## Haar Cascade
+
+
+## CNN
 
 
 ## Author
