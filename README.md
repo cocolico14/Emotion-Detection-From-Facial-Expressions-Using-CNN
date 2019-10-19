@@ -4,7 +4,7 @@
 
 ## Summary
 
-This code will detect faces with the help of haar cascade, then, send these faces to a CNN to classify their emotion in real time. Emotions are surprise, happy, sad, angry, natural, fear, disgust.
+This code will detect faces with the help of haar cascade, then send these faces to a CNN to classify their emotions in real-time. Emotions are surprised, happy, sad, angry, natural, fear, disgust.
 
 ## Demo
 
@@ -32,6 +32,7 @@ This code will detect faces with the help of haar cascade, then, send these face
   - Due to the lack of adequate data in the dataset (47,203), I used StratifiedKFold (with 6 folds) to find the best train and test, group.
   - After grid searching, I found the CNN with the highest accuracy was this one.
   
+```
   Layer (type)                 Output Shape              Param #   
 =================================================================
 input_12 (InputLayer)        (None, 48, 48, 1)         0         
@@ -85,6 +86,7 @@ dense_24 (Dense)             (None, 7)                 455
 Total params: 2,637,703
 Trainable params: 2,635,591
 Non-trainable params: 2,112
+```
 
 
 ## Author
