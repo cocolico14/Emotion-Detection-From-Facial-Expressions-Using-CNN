@@ -4,7 +4,7 @@
 
 ## Summary
 
-This code will detect faces with the help of haar cascade, then send these faces to a CNN to classify their emotions in real-time. Emotions are surprised, happy, sad, angry, natural, fear, disgust.
+This code will detect faces with the help of haar cascade, then send these faces to a CNN to classify their emotions in real-time. Emotions are surprised, happy, sad, angry, natural, fear, disgust with accuracy of 62.08%.
 
 ## Demo
 
