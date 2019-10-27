@@ -30,7 +30,7 @@ This code will detect faces with the help of haar cascade, then send these faces
 
   - Dataset has been gathered from different sources (kaggle challenge, fer, jaffe, ...), and relabeled accurately.
   - Due to the lack of adequate data in the dataset (47,203), I used StratifiedKFold (with 6 folds) to find the best train and test, group.
-  - After grid searching, I found the CNN with the highest accuracy was this one.
+  - After grid searching, the CNN with the highest accuracy was this one.
   
 ```
   Layer (type)                 Output Shape              Param #   
